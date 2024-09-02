@@ -6,6 +6,7 @@ class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
         vector<int> res(nums.size(),0);
+        // test
         // res = {0,1,9,16,100};
         int left = 0;
         int right = nums.size() - 1;
